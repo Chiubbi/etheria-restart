@@ -6,7 +6,6 @@ const Layout = ({ children }) => {
     <div className={styles.container}>
       <aside className={styles.sidebar}>
         <div className={styles.logoBox}>
-          {/* Remplace ceci par une image si tu veux */}
           <span>Logo</span>
         </div>
         <div className={styles.separator} />
