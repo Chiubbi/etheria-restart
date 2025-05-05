@@ -4,6 +4,10 @@ const Layout = ({ children }) => {
   return (
     <div className={styles.container}>
       <aside className={styles.sidebar}>
+        <div className={styles.logoBox}>
+          {/* Tu peux mettre une image ici plus tard */}
+          <span>Logo</span>
+        </div>
         <h2>Catégories</h2>
         <ul>
           <li>Personnages</li>
