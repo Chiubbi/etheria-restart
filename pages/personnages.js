@@ -6,6 +6,7 @@ const Personnages = () => {
     <div style={{ padding: '20px' }}>
       <h1>Liste des Personnages</h1>
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+        {/* Lien vers la page de Tiamat */}
         <Link href="/personnages/tiamat">
           <a style={{ textAlign: 'center', margin: '10px', display: 'block' }}>
             <img
@@ -16,7 +17,20 @@ const Personnages = () => {
             <p>Tiamat</p>
           </a>
         </Link>
+        
         {/* Ajoute ici d'autres personnages de la même manière */}
+        {/* Exemple:
+        <Link href="/personnages/autrePersonnage">
+          <a style={{ textAlign: 'center', margin: '10px', display: 'block' }}>
+            <img
+              src="image_url"
+              alt="Nom"
+              style={{ width: '150px', height: 'auto', borderRadius: '8px' }}
+            />
+            <p>Nom</p>
+          </a>
+        </Link>
+        */}
       </div>
     </div>
   );
