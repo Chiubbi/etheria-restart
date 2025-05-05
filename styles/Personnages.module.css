@@ -1,37 +1,28 @@
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-  padding: 20px;
+/* styles/personnages.module.css */
+.characterList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.card {
-  background-color: #1a1a1a; /* Fond sombre */
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease-in-out;
-  padding: 20px;
+.characterCard {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.card:hover {
-  transform: scale(1.05);
-}
-
-.cardImage {
-  width: 100%;
+.characterCard img {
+  width: 150px;
   height: auto;
   border-radius: 8px;
 }
 
-.card h3 {
-  color: #f5f5f5;
-  margin-top: 15px;
-  font-size: 1.5em;
-}
-
-.card p {
-  color: #ccc;
-  font-size: 1em;
+.characterCard p {
   margin-top: 10px;
+  font-weight: bold;
 }
