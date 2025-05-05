@@ -1,9 +1,9 @@
 // pages/index.js
-import React from 'react';
+import Layout from './layout';
 
 const Home = () => {
   return (
-    <div>
+    <Layout>
       <h1>Bienvenue sur Etheria Restart Guide !</h1>
       <p>Voici les personnages d'Etheria Restart traduits en français :</p>
 
@@ -13,7 +13,7 @@ const Home = () => {
         <li><strong>Heinrich</strong> - Fort en PVE</li>
         <li><strong>Lingluo</strong> - Soigneur et débuffeur</li>
       </ul>
-    </div>
+    </Layout>
   );
 };
 
