@@ -1,25 +1,24 @@
-import styles from './layout.module.css';
-import Link from 'next/link';  // Import de Link pour la navigation
+import Link from 'next/link';
 
 const Layout = ({ children }) => {
   return (
-    <div className={styles.container}>
-      <aside className={styles.sidebar}>
-        <div className={styles.logoBox}>
-          <span>Logo</span>
-        </div>
-        <div className={styles.separator} />
+    <div style={{ display: 'flex' }}>
+      <div style={{ width: '200px', padding: '10px', borderRight: '2px solid #e8e8e8' }}>
         <h2>Catégories</h2>
         <ul>
-          <li><Link href="/">Page principale</Link></li>
-          <li><Link href="/personnages">Personnages</Link></li> {/* Lien vers la page Personnages */}
-          <li><Link href="/">Tutoriels</Link></li>
-          <li><Link href="/">Événements</Link></li>
+          <li>
+            <Link href="/">Page principale</Link>
+          </li>
+          <li>
+            <Link href="/characters/Tiamat">Tiamat</Link>
+          </li>
+          {/* Ajouter d'autres personnages ici */}
         </ul>
-      </aside>
-      <main className={styles.mainContent}>
+      </div>
+
+      <div style={{ flex: 1, padding: '20px' }}>
         {children}
-      </main>
+      </div>
     </div>
   );
 };
