@@ -1,5 +1,5 @@
-import Layout from './layout';
-import Link from 'next/link';
+// pages/index.js
+import Layout from '../layout'; // Assure-toi que le chemin est correct
 
 const Home = () => {
   return (
@@ -8,8 +8,10 @@ const Home = () => {
       <p>Voici les personnages d'Etheria Restart traduits en français :</p>
 
       <ul>
-        <li><Link href="/characters/Tiamat"><strong>Tiamat</strong></Link> - Meilleur soigneur</li>
-        {/* Ajouter d'autres personnages ici */}
+        <li><strong>Dokidoki</strong> - Meilleur soigneur</li>
+        <li><strong>Lily</strong> - Puissante en soutien</li>
+        <li><strong>Heinrich</strong> - Fort en PVE</li>
+        <li><strong>Lingluo</strong> - Soigneur et débuffeur</li>
       </ul>
     </Layout>
   );
