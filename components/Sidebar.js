@@ -1,4 +1,3 @@
-// components/Sidebar.js
 import Link from 'next/link';
 
 const Sidebar = () => {
@@ -7,11 +6,16 @@ const Sidebar = () => {
       <h2>Menu</h2>
       <ul>
         <li>
+          <Link href="/">
+            <a>Accueil</a>
+          </Link>
+        </li>
+        <li>
           <Link href="/personnages">
             <a>Personnages</a>
           </Link>
         </li>
-        {/* Ajoute d'autres liens ici */}
+        {/* Ajoute d'autres liens si nécessaire */}
       </ul>
     </div>
   );
