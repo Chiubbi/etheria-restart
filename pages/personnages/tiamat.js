@@ -1,4 +1,3 @@
-// pages/personnages/tiamat.js
 import Link from 'next/link';
 
 const Tiamat = () => {
