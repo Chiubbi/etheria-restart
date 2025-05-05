@@ -1,4 +1,5 @@
 import styles from './layout.module.css';
+import Link from 'next/link';  // Import de Link pour la navigation
 
 const Layout = ({ children }) => {
   return (
@@ -11,9 +12,10 @@ const Layout = ({ children }) => {
         <div className={styles.separator} />
         <h2>Catégories</h2>
         <ul>
-          <li>Personnages</li>
-          <li>Tutoriels</li>
-          <li>Événements</li>
+          <li><Link href="/">Page principale</Link></li>
+          <li><Link href="/personnages">Personnages</Link></li> {/* Lien vers la page Personnages */}
+          <li><Link href="/">Tutoriels</Link></li>
+          <li><Link href="/">Événements</Link></li>
         </ul>
       </aside>
       <main className={styles.mainContent}>
