@@ -1,0 +1,10 @@
+/* pages/layout.module.css */
+.container {
+  display: flex;
+}
+
+.content {
+  margin-left: 250px; /* Décale le contenu pour laisser de l'espace pour la sidebar */
+  padding: 20px;
+  width: 100%;
+}
