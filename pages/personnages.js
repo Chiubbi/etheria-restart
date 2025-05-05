@@ -17,8 +17,8 @@ const Personnages = () => {
             <p>Tiamat</p>
           </a>
         </Link>
-        
-        {/* Ajoute ici d'autres personnages de la même manière */}
+
+        {/* Tu peux ajouter d'autres personnages ici de manière similaire */}
         {/* Exemple:
         <Link href="/personnages/autrePersonnage">
           <a style={{ textAlign: 'center', margin: '10px', display: 'block' }}>
