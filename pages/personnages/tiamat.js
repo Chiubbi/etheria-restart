@@ -1,9 +1,6 @@
 // pages/personnages/tiamat.js
 import Link from 'next/link';
 
-// pages/personnages/tiamat.js
-import Link from 'next/link';
-
 const Tiamat = () => {
   return (
     <div>
@@ -28,4 +25,3 @@ const Tiamat = () => {
 };
 
 export default Tiamat;
-
