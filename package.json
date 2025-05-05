@@ -1,14 +1,25 @@
 {
   "name": "etheria-restart",
   "version": "1.0.0",
+  "description": "Un guide pour Etheria Restart",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "^12.0.0",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.0"
-  }
+    "next": "^12.3.9", 
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "@swc/core": "^1.2.100"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-next": "^12.3.9"
+  },
+  "engines": {
+    "node": ">=12.22.0"
+  },
+  "private": true
 }
