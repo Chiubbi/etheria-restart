@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Personnages = () => {
   return (
     <div>
-      <h1>Liste des personnages</h1>
+      <h1>Personnages disponibles</h1>
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         <Link href="/personnages/tiamat">
           <a style={{ textAlign: 'center', margin: '10px', display: 'block' }}>
@@ -15,7 +15,7 @@ const Personnages = () => {
             <p>Tiamat</p>
           </a>
         </Link>
-        {/* Ajoute d'autres personnages ici */}
+        {/* D'autres liens pour d'autres personnages */}
       </div>
     </div>
   );
