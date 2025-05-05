@@ -1,4 +1,3 @@
-// layouts/layout.js
 import Sidebar from '../components/Sidebar';
 import '../styles/globals.css';
 
